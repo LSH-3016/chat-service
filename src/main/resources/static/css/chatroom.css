@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0fdf4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 128, 64, 0.2);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h2 {
+    background-color: #2e7d32;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+#chat-area {
+    flex: 1;
+    padding: 1rem;
+    border-top: 1px solid #c8e6c9;
+    border-bottom: 1px solid #c8e6c9;
+    overflow-y: auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#chat-area div {
+    margin-bottom: 0.6rem;
+    padding: 0.4rem 0.6rem;
+    background-color: #e8f5e9;
+    border-radius: 6px;
+    font-weight: 600; /* ✅ 글씨체 더 진하게 */
+    color: #1b5e20;
+}
+
+input[type="text"] {
+    border: 1px solid #a5d6a7;
+    border-radius: 6px;
+    padding: 0.6rem;
+    margin: 0.5rem;
+    flex: 1;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
